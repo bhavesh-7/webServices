@@ -5,15 +5,15 @@ Compile and run the RMI application
 
 
 open 1 cmd
-enter : javac calcInterface.java calcServer.java calcClient.java
+enter : javac CalculatorInterface.java CalculatorServer.java CalculatorClient.java
 
 open another cmd
 enter : rmiregistry
 
 open another cmd
-enter : java calcServer
+enter : java CalculatorServer
 
 open another cmd 
-enter : java calcClient
+enter : java CalculatorClient
 
 AND YOU'RE DONE.
